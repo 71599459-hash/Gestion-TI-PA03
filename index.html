@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Producto Académico Nº 2 - ITIL V4</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin:0;
+  background:#eef2f7;
+  line-height:1.8;
+  color:#222;
+}
+
+header{
+  background:linear-gradient(135deg,#0b3c5d,#165a8a);
+  color:#fff;
+  padding:70px 30px;
+  text-align:center;
+}
+
+nav{
+  background:#0b3c5d;
+  padding:15px;
+  text-align:center;
+  position:sticky;
+  top:0;
+}
+
+nav a{
+  color:#fff;
+  margin:0 14px;
+  text-decoration:none;
+  font-weight:600;
+}
+
+nav a:hover{ text-decoration:underline; }
+
+section{
+  max-width:1100px;
+  margin:40px auto;
+  background:#fff;
+  padding:50px;
+  border-radius:12px;
+  box-shadow:0 0 18px rgba(0,0,0,.08);
+}
+
+h2{ color:#0b3c5d; }
+h3{ color:#165a8a; }
+
+.schema{
+  background:#f5f8fc;
+  padding:25px;
+  border-left:5px solid #165a8a;
+  margin:25px 0;
+  font-weight:600;
+}
+
+footer{
+  background:#0b3c5d;
+  color:#fff;
+  text-align:center;
+  padding:30px;
+  margin-top:50px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Producto Académico Nº 2 – ITIL V4</h1>
+<p>Gestión de Servicios de Tecnologías de la Información</p>
+<p>Unidad 3 – Service Desk y Tipos de Gestión</p>
+</header>
+
+<nav>
+<a href="#inicio">Presentación</a>
+<a href="#servicedesk">Service Desk</a>
+<a href="#incidentes">Incidentes y Problemas</a>
+<a href="#cambios">Gestión de Cambios</a>
+<a href="#capacidad">Capacidad, Disponibilidad y Continuidad</a>
+<a href="#conclusiones">Conclusiones</a>
+<a href="#bibliografia">Bibliografía</a>
+</nav>
+
+<!-- PRESENTACIÓN -->
+<section id="inicio">
+<h2>Presentación del Grupo</h2>
+
+<p>
+El presente website académico ha sido desarrollado como parte del Producto Académico Nº 2 del curso Gestión de Servicios de Tecnologías de la Información, correspondiente a la Unidad 3. Su objetivo es aplicar los conceptos del marco ITIL versión 4 mediante la elaboración de un sitio web académico.
+</p>
+
+<p>
+El sitio aborda el Service Desk y las principales prácticas de gestión de servicios de TI: gestión de incidentes y problemas, gestión de cambios y gestión de la capacidad, disponibilidad y continuidad del servicio, las cuales son fundamentales para asegurar la calidad, estabilidad y mejora continua de los servicios tecnológicos.
+</p>
+</section>
+
+<!-- SERVICE DESK -->
+<section id="servicedesk">
+<h2>Service Desk en ITIL V4</h2>
+
+<h3>Resumen Descriptivo</h3>
+<p>
+El Service Desk es la práctica de ITIL V4 responsable de capturar la demanda relacionada con incidentes y solicitudes de servicio. Actúa como el punto único de contacto entre los usuarios y el proveedor del servicio de TI, facilitando la comunicación y garantizando una atención eficiente.
+</p>
+
+<p>
+En ITIL V4, el Service Desk tiene un enfoque estratégico, apoyándose en herramientas digitales, automatización y autoservicio, contribuyendo a mejorar la experiencia del usuario y a generar información clave para la mejora continua de los servicios.
+</p>
+
+<h3>Esquema Gráfico – Service Desk</h3>
+<div class="schema">
+Usuarios  
+<br>↓  
+<br>Service Desk  
+<br>(Recepción – Registro – Clasificación – Priorización – Resolución)  
+<br>↓  
+<br>Equipos Especializados  
+<br>↓  
+<br>Restablecimiento del Servicio
+</div>
+</section>
+
+<!-- INCIDENTES Y PROBLEMAS -->
+<section id="incidentes">
+<h2>Gestión de Incidentes y Problemas</h2>
+
+<h3>Resumen Descriptivo – Gestión de Incidentes</h3>
+<p>
+La gestión de incidentes tiene como finalidad restaurar el servicio normal lo más rápidamente posible ante una interrupción, minimizando el impacto en las operaciones del negocio. Se centra en la rapidez de respuesta y en la continuidad del servicio.
+</p>
+
+<h3>Resumen Descriptivo – Gestión de Problemas</h3>
+<p>
+La gestión de problemas busca identificar la causa raíz de uno o más incidentes, documentar errores conocidos y establecer soluciones permanentes que eviten la recurrencia de fallas.
+</p>
+
+<h3>Esquema Gráfico – Incidentes y Problemas</h3>
+<div class="schema">
+Falla del Servicio  
+<br>↓  
+<br>Incidente  
+<br>↓  
+<br>Solución Temporal  
+<br>↓  
+<br>Problema  
+<br>↓  
+<br>Análisis de Causa Raíz  
+<br>↓  
+<br>Solución Permanente
+</div>
+</section>
+
+<!-- CAMBIOS -->
+<section id="cambios">
+<h2>Gestión de Cambios</h2>
+
+<h3>Resumen Descriptivo</h3>
+<p>
+La gestión de cambios, denominada Change Enablement en ITIL V4, garantiza que todas las modificaciones a los servicios de TI se realicen de manera controlada, evaluando riesgos, beneficios e impactos antes de su implementación.
+</p>
+
+<p>
+Los cambios pueden ser estándar, normales o de emergencia, dependiendo de su nivel de riesgo y urgencia.
+</p>
+
+<h3>Esquema Gráfico – Gestión de Cambios</h3>
+<div class="schema">
+Solicitud de Cambio  
+<br>↓  
+<br>Evaluación  
+<br>↓  
+<br>Autorización  
+<br>↓  
+<br>Planificación  
+<br>↓  
+<br>Implementación  
+<br>↓  
+<br>Revisión y Cierre
+</div>
+</section>
+
+<!-- CAPACIDAD -->
+<section id="capacidad">
+<h2>Gestión de Capacidad, Disponibilidad y Continuidad</h2>
+
+<h3>Resumen Descriptivo</h3>
+<p>
+La gestión de la capacidad asegura que los recursos tecnológicos sean suficientes para atender la demanda del negocio. La gestión de la disponibilidad garantiza que los servicios estén accesibles cuando se requieran, y la gestión de la continuidad permite mantener las operaciones ante eventos disruptivos.
+</p>
+
+<p>
+Estas tres prácticas trabajan de forma integrada para fortalecer la resiliencia y sostenibilidad de los servicios de TI.
+</p>
+
+<h3>Esquema Gráfico – Capacidad, Disponibilidad y Continuidad</h3>
+<div class="schema">
+Gestión de Capacidad  
+<br>↓  
+<br>Gestión de Disponibilidad  
+<br>↓  
+<br>Gestión de Continuidad  
+<br>↓  
+<br>Resiliencia del Servicio
+</div>
+</section>
+
+<!-- CONCLUSIONES -->
+<section id="conclusiones">
+<h2>Conclusiones</h2>
+<p>
+ITIL V4 proporciona un enfoque moderno y flexible para la gestión de servicios de TI. El Service Desk cumple un rol central en la comunicación con los usuarios, mientras que la correcta gestión de incidentes, problemas y cambios asegura la estabilidad operativa.
+</p>
+
+<p>
+Asimismo, la gestión de la capacidad, disponibilidad y continuidad fortalece la resiliencia organizacional, permitiendo que los servicios tecnológicos soporten las necesidades del negocio de manera sostenible.
+</p>
+</section>
+
+<!-- BIBLIOGRAFÍA -->
+<section id="bibliografia">
+<h2>Bibliografía</h2>
+<ul>
+<li>AXELOS (2019). <em>ITIL Foundation: ITIL 4 Edition</em>.</li>
+<li>Office of Government Commerce. <em>Fundamentos de ITIL V4</em>.</li>
+<li>Material académico del curso Gestión de Servicios de TI.</li>
+</ul>
+</section>
+
+<footer>
+<p>Producto Académico Nº 2 – Gestión de Servicios de Tecnologías de la Información</p>
+</footer>
+
+</body>
+</html>
